@@ -84,6 +84,8 @@ Each trigger value must match the value of its content panel. Chakra handles the
 A presentation component can accept a value and a callback without owning the full application data source.
 
 ```jsx
+import { Checkbox } from "@chakra-ui/react"
+
 function CompletionControl({ checked, onChange }) {
   return (
     <Checkbox.Root
