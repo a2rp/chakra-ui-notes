@@ -36,13 +36,13 @@ Do not rebuild the system inside a component on every render. A stable module ex
 When rendering repeated Chakra components, use a stable key from the data. Avoid using the array index when entries can be inserted, removed, or reordered.
 
 ```jsx
-import { SimpleGrid } from "@chakra-ui/react"
+import { Box, SimpleGrid } from "@chakra-ui/react"
 
 export function ItemGrid({ items }) {
   return (
     <SimpleGrid columns={{ base: 1, md: 2 }} gap="4">
       {items.map((item) => (
-        <ItemCard key={item.id} item={item} />
+        <Box key={item.id} borderWidth="1px" p="4">{item.name}</Box>
       ))}
     </SimpleGrid>
   )
