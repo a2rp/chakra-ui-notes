@@ -12,7 +12,7 @@ Chakra UI is a React component library with accessible interface components and 
 
 ## Create a Vite React project
 
-Use Node.js 20 or newer. In a terminal, run:
+Use Node.js 20.19+ or 22.12+. Some Vite templates may need a newer version. In a terminal, run:
 
 ```sh
 node --version
@@ -102,7 +102,7 @@ The parent supplies the action through `onSave`. `SaveButton` owns the shared pr
 - **Styles missing:** confirm the component is inside `ChakraProvider` and that v3 uses `value={defaultSystem}`.
 - **Import error:** check that the package is installed and the component comes from `@chakra-ui/react`.
 - **An example does not match:** verify that the example is for v3, since v2 APIs differ.
-- **Unsupported Node version:** install Node.js 20 or newer and restart the terminal.
+- **Unsupported Node version:** install Node.js 20.19+ or 22.12+ and restart the terminal.
 
 ## Practice
 

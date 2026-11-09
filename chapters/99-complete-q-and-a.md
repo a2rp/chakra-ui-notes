@@ -20,7 +20,7 @@ The examples target Chakra UI v3 with React and JavaScript. Check the linked off
 
 ### 3. What is needed to start a Chakra UI Vite app?
 
-Use Node.js 20 or newer, create a React app with Vite, install its dependencies, then install `@chakra-ui/react` and `@emotion/react`. The setup and first component chapter shows the complete commands.
+Use Node.js 20.19+ or 22.12+, create a React app with Vite, install its dependencies, then install `@chakra-ui/react` and `@emotion/react`. Some Vite templates may need a newer version. The setup and first component chapter shows the complete commands.
 
 ### 4. Why does the app need a Chakra provider?
 

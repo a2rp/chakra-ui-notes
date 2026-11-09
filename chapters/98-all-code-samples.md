@@ -895,7 +895,7 @@ import { IconButton } from "@chakra-ui/react"
 export function ClosePanelButton({ onClose }) {
   return (
     <IconButton aria-label="Close panel" onClick={onClose} variant="ghost">
-      �
+      ×
     </IconButton>
   )
 }
